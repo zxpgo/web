@@ -1,0 +1,17 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3308/springboot-vue3
+    username: root
+    password: 123456
+
+logging:
+  level:
+    com.example.springbootvue3.mapper: debug
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
